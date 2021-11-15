@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76A2A5487201B99F4013CC94 /* Pods_YtemoiGoiYTa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0379CE10BD356A55DA39B289 /* Pods_YtemoiGoiYTa.framework */; };
+		B2305CAC2726778D005C5DBD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2305CAB2726778D005C5DBD /* MainViewController.swift */; };
+		B2305CAE272677CA005C5DBD /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2305CAD272677CA005C5DBD /* RootNavigationController.swift */; };
+		B24F4F622722D892008CE7F9 /* ringtone.wav in Resources */ = {isa = PBXBuildFile; fileRef = B24F4F612722D892008CE7F9 /* ringtone.wav */; };
+		B2782FA8270EF60300A992A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FA7270EF60300A992A8 /* AppDelegate.swift */; };
+		B2782FB1270EF60600A992A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2782FB0270EF60600A992A8 /* Assets.xcassets */; };
+		B2782FB4270EF60600A992A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2782FB2270EF60600A992A8 /* LaunchScreen.storyboard */; };
+		B2782FD3270EFA2D00A992A8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FBC270EFA2800A992A8 /* Key.swift */; };
+		B2782FD4270EFA2D00A992A8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FBD270EFA2800A992A8 /* Utils.swift */; };
+		B2782FD5270EFA2D00A992A8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FC0270EFA2A00A992A8 /* UIViewController.swift */; };
+		B2782FD6270EFA2D00A992A8 /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FC2270EFA2B00A992A8 /* QRScannerView.swift */; };
+		B2782FD7270EFA2D00A992A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2782FC4270EFA2B00A992A8 /* Main.storyboard */; };
+		B2782FD8270EFA2D00A992A8 /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FC6270EFA2B00A992A8 /* CopyLabel.swift */; };
+		B2782FDB270EFA2D00A992A8 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FCA270EFA2C00A992A8 /* OtpViewController.swift */; };
+		B2782FDC270EFA2D00A992A8 /* NurseCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FCB270EFA2C00A992A8 /* NurseCallViewController.swift */; };
+		B2782FDD270EFA2D00A992A8 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FCC270EFA2C00A992A8 /* PhoneNumberViewController.swift */; };
+		B2782FDE270EFA2D00A992A8 /* QrScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FCD270EFA2C00A992A8 /* QrScannerViewController.swift */; };
+		B2782FDF270EFA2D00A992A8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FD0270EFA2D00A992A8 /* Network.swift */; };
+		B2782FE0270EFA2D00A992A8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FD1270EFA2D00A992A8 /* User.swift */; };
+		B2782FE1270EFA2D00A992A8 /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2782FD2270EFA2D00A992A8 /* QRData.swift */; };
+		B2782FE5270EFB1D00A992A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2782FE4270EFB1D00A992A8 /* GoogleService-Info.plist */; };
+		B2782FE7270FFF7200A992A8 /* nursecall_noti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B2782FE6270FFF7200A992A8 /* nursecall_noti.mp3 */; };
+		B2D9C33D2723CBB200BB2F62 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9C33C2723CBB200BB2F62 /* MenuCell.swift */; };
+		B2D9C33F2723E8A400BB2F62 /* GetReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9C33E2723E8A400BB2F62 /* GetReviewViewController.swift */; };
+		B2D9C3412723E8B900BB2F62 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D9C3402723E8B900BB2F62 /* FeedbackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0379CE10BD356A55DA39B289 /* Pods_YtemoiGoiYTa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YtemoiGoiYTa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCF9AC70CCC79A719D945A4 /* Pods-YtemoiGoiYTa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YtemoiGoiYTa.release.xcconfig"; path = "Target Support Files/Pods-YtemoiGoiYTa/Pods-YtemoiGoiYTa.release.xcconfig"; sourceTree = "<group>"; };
+		831D047F7BC983C242E743A7 /* Pods-YtemoiGoiYTa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YtemoiGoiYTa.debug.xcconfig"; path = "Target Support Files/Pods-YtemoiGoiYTa/Pods-YtemoiGoiYTa.debug.xcconfig"; sourceTree = "<group>"; };
+		B2305CAB2726778D005C5DBD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B2305CAD272677CA005C5DBD /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		B24F4F612722D892008CE7F9 /* ringtone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringtone.wav; sourceTree = "<group>"; };
+		B2782FA4270EF60300A992A8 /* YtemoiGoiYTa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YtemoiGoiYTa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2782FA7270EF60300A992A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2782FB0270EF60600A992A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2782FB3270EF60600A992A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2782FB5270EF60600A992A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2782FBC270EFA2800A992A8 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		B2782FBD270EFA2800A992A8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B2782FBE270EFA2900A992A8 /* YtemoiGoiYTa.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = YtemoiGoiYTa.entitlements; sourceTree = "<group>"; };
+		B2782FC0270EFA2A00A992A8 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B2782FC2270EFA2B00A992A8 /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		B2782FC5270EFA2B00A992A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2782FC6270EFA2B00A992A8 /* CopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
+		B2782FCA270EFA2C00A992A8 /* OtpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		B2782FCB270EFA2C00A992A8 /* NurseCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NurseCallViewController.swift; sourceTree = "<group>"; };
+		B2782FCC270EFA2C00A992A8 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		B2782FCD270EFA2C00A992A8 /* QrScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrScannerViewController.swift; sourceTree = "<group>"; };
+		B2782FD0270EFA2D00A992A8 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B2782FD1270EFA2D00A992A8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B2782FD2270EFA2D00A992A8 /* QRData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		B2782FE4270EFB1D00A992A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2782FE6270FFF7200A992A8 /* nursecall_noti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nursecall_noti.mp3; sourceTree = "<group>"; };
+		B2D9C33C2723CBB200BB2F62 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		B2D9C33E2723E8A400BB2F62 /* GetReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReviewViewController.swift; sourceTree = "<group>"; };
+		B2D9C3402723E8B900BB2F62 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2782FA1270EF60300A992A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2A5487201B99F4013CC94 /* Pods_YtemoiGoiYTa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394317C8FB07FB0412FDF981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0379CE10BD356A55DA39B289 /* Pods_YtemoiGoiYTa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2782F9B270EF60300A992A8 = {
+			isa = PBXGroup;
+			children = (
+				B2782FA6270EF60300A992A8 /* YtemoiGoiYTa */,
+				B2782FE6270FFF7200A992A8 /* nursecall_noti.mp3 */,
+				B24F4F612722D892008CE7F9 /* ringtone.wav */,
+				B2782FA5270EF60300A992A8 /* Products */,
+				DE4D2BCA4EAEDD24A5BDB761 /* Pods */,
+				394317C8FB07FB0412FDF981 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2782FA5270EF60300A992A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FA4270EF60300A992A8 /* YtemoiGoiYTa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2782FA6270EF60300A992A8 /* YtemoiGoiYTa */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FBE270EFA2900A992A8 /* YtemoiGoiYTa.entitlements */,
+				B2782FCF270EFA2D00A992A8 /* Model */,
+				B2782FC8270EFA2C00A992A8 /* Controller */,
+				B2782FC1270EFA2B00A992A8 /* View */,
+				B2782FBF270EFA2A00A992A8 /* Extension */,
+				B2782FBB270EFA2800A992A8 /* Utils */,
+				B2782FA7270EF60300A992A8 /* AppDelegate.swift */,
+				B2782FB0270EF60600A992A8 /* Assets.xcassets */,
+				B2782FB2270EF60600A992A8 /* LaunchScreen.storyboard */,
+				B2782FE4270EFB1D00A992A8 /* GoogleService-Info.plist */,
+				B2782FB5270EF60600A992A8 /* Info.plist */,
+			);
+			path = YtemoiGoiYTa;
+			sourceTree = "<group>";
+		};
+		B2782FBB270EFA2800A992A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FBC270EFA2800A992A8 /* Key.swift */,
+				B2782FBD270EFA2800A992A8 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2782FBF270EFA2A00A992A8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FC0270EFA2A00A992A8 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B2782FC1270EFA2B00A992A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FC3270EFA2B00A992A8 /* Storyboard */,
+				B2782FC2270EFA2B00A992A8 /* QRScannerView.swift */,
+				B2782FC6270EFA2B00A992A8 /* CopyLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2782FC3270EFA2B00A992A8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FC4270EFA2B00A992A8 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B2782FC8270EFA2C00A992A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9C33B2723CB9B00BB2F62 /* Cell */,
+				B2305CAD272677CA005C5DBD /* RootNavigationController.swift */,
+				B2782FCA270EFA2C00A992A8 /* OtpViewController.swift */,
+				B2782FCB270EFA2C00A992A8 /* NurseCallViewController.swift */,
+				B2782FCC270EFA2C00A992A8 /* PhoneNumberViewController.swift */,
+				B2782FCD270EFA2C00A992A8 /* QrScannerViewController.swift */,
+				B2D9C33E2723E8A400BB2F62 /* GetReviewViewController.swift */,
+				B2D9C3402723E8B900BB2F62 /* FeedbackViewController.swift */,
+				B2305CAB2726778D005C5DBD /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2782FCF270EFA2D00A992A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2782FD0270EFA2D00A992A8 /* Network.swift */,
+				B2782FD1270EFA2D00A992A8 /* User.swift */,
+				B2782FD2270EFA2D00A992A8 /* QRData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2D9C33B2723CB9B00BB2F62 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B2D9C33C2723CBB200BB2F62 /* MenuCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DE4D2BCA4EAEDD24A5BDB761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				831D047F7BC983C242E743A7 /* Pods-YtemoiGoiYTa.debug.xcconfig */,
+				0CCF9AC70CCC79A719D945A4 /* Pods-YtemoiGoiYTa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2782FA3270EF60300A992A8 /* YtemoiGoiYTa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2782FB8270EF60600A992A8 /* Build configuration list for PBXNativeTarget "YtemoiGoiYTa" */;
+			buildPhases = (
+				86936EB2E7F5FE09B9F6E96B /* [CP] Check Pods Manifest.lock */,
+				B2782FA0270EF60300A992A8 /* Sources */,
+				B2782FA1270EF60300A992A8 /* Frameworks */,
+				B2782FA2270EF60300A992A8 /* Resources */,
+				A08698EDCAD1A39DD1C4AAC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YtemoiGoiYTa;
+			productName = YtemoiGoiYTa;
+			productReference = B2782FA4270EF60300A992A8 /* YtemoiGoiYTa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2782F9C270EF60300A992A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B2782FA3270EF60300A992A8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = B2782F9F270EF60300A992A8 /* Build configuration list for PBXProject "YtemoiGoiYTa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2782F9B270EF60300A992A8;
+			productRefGroup = B2782FA5270EF60300A992A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2782FA3270EF60300A992A8 /* YtemoiGoiYTa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2782FA2270EF60300A992A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2782FB4270EF60600A992A8 /* LaunchScreen.storyboard in Resources */,
+				B2782FE5270EFB1D00A992A8 /* GoogleService-Info.plist in Resources */,
+				B2782FE7270FFF7200A992A8 /* nursecall_noti.mp3 in Resources */,
+				B2782FB1270EF60600A992A8 /* Assets.xcassets in Resources */,
+				B24F4F622722D892008CE7F9 /* ringtone.wav in Resources */,
+				B2782FD7270EFA2D00A992A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86936EB2E7F5FE09B9F6E96B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YtemoiGoiYTa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08698EDCAD1A39DD1C4AAC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YtemoiGoiYTa/Pods-YtemoiGoiYTa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YtemoiGoiYTa/Pods-YtemoiGoiYTa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YtemoiGoiYTa/Pods-YtemoiGoiYTa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2782FA0270EF60300A992A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2782FDB270EFA2D00A992A8 /* OtpViewController.swift in Sources */,
+				B2D9C3412723E8B900BB2F62 /* FeedbackViewController.swift in Sources */,
+				B2782FE1270EFA2D00A992A8 /* QRData.swift in Sources */,
+				B2782FA8270EF60300A992A8 /* AppDelegate.swift in Sources */,
+				B2782FD3270EFA2D00A992A8 /* Key.swift in Sources */,
+				B2782FDC270EFA2D00A992A8 /* NurseCallViewController.swift in Sources */,
+				B2782FDE270EFA2D00A992A8 /* QrScannerViewController.swift in Sources */,
+				B2782FE0270EFA2D00A992A8 /* User.swift in Sources */,
+				B2782FD4270EFA2D00A992A8 /* Utils.swift in Sources */,
+				B2D9C33F2723E8A400BB2F62 /* GetReviewViewController.swift in Sources */,
+				B2782FDD270EFA2D00A992A8 /* PhoneNumberViewController.swift in Sources */,
+				B2782FD6270EFA2D00A992A8 /* QRScannerView.swift in Sources */,
+				B2D9C33D2723CBB200BB2F62 /* MenuCell.swift in Sources */,
+				B2782FD5270EFA2D00A992A8 /* UIViewController.swift in Sources */,
+				B2305CAC2726778D005C5DBD /* MainViewController.swift in Sources */,
+				B2782FDF270EFA2D00A992A8 /* Network.swift in Sources */,
+				B2305CAE272677CA005C5DBD /* RootNavigationController.swift in Sources */,
+				B2782FD8270EFA2D00A992A8 /* CopyLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2782FB2270EF60600A992A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2782FB3270EF60600A992A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B2782FC4270EFA2B00A992A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2782FC5270EFA2B00A992A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2782FB6270EF60600A992A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2782FB7270EF60600A992A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2782FB9270EF60600A992A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831D047F7BC983C242E743A7 /* Pods-YtemoiGoiYTa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2GNRFQMMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YtemoiGoiYTa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gọi y tá";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gọi y tá needs camera access to scan QR code";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cho phép sử dụng microphone?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytemoi.YtemoiGoiYTa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2782FBA270EF60600A992A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CCF9AC70CCC79A719D945A4 /* Pods-YtemoiGoiYTa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q2GNRFQMMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YtemoiGoiYTa/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gọi y tá";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gọi y tá needs camera access to scan QR code";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cho phép sử dụng microphone?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ytemoi.YtemoiGoiYTa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2782F9F270EF60300A992A8 /* Build configuration list for PBXProject "YtemoiGoiYTa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2782FB6270EF60600A992A8 /* Debug */,
+				B2782FB7270EF60600A992A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2782FB8270EF60600A992A8 /* Build configuration list for PBXNativeTarget "YtemoiGoiYTa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2782FB9270EF60600A992A8 /* Debug */,
+				B2782FBA270EF60600A992A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2782F9C270EF60300A992A8 /* Project object */;
+}
